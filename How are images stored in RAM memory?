@@ -13,3 +13,5 @@ Address 000003: start of the pixels array and containing the color of the first 
 
 Address 480003: end of the pixels array and containing the color of the last pixel as 32-bit integer which can be viewed as 4-bytes: first byte = red value, second byte = green value, third byte = blue value, fourth byte = transparency value
 so in a programming language you will need to keep the pixels in some variable like this pixels[800*600] and to access the color at the pixel with position (x, y) you will access pixels[x + width * y] and if you just need the red value you will need to extract the corresponding byte from the color value.
+
+from Quaro: https://qr.ae/psFlno
